@@ -276,11 +276,36 @@ h1#email {
     color: #ffffff;
 }
 
+
+.footer__nav {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.footer__nav a {
+    display: inline-block;
+    margin-right: 55px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer__nav a:last-child {
+    margin-right: 0;
+}
+
+
+.footer__nav a:hover {
+    opacity: 50%;
+}
+
+/*
 .footer table {
     width: 450px;
     text-align: center;
     margin: auto;
 }
+*/
 
 .footer p {
     text-align: center;
