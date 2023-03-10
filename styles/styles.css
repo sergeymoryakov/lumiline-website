@@ -150,23 +150,6 @@ img {
     text-decoration: none;
 }
 
-.contacts {
-    margin: 0 auto;
-    max-width: 1400px;
-    padding: 150px 125px 150px 125px;
-    background-color: #ffffff;
-}
-
-.contacts img {
-    width: 13px;
-    color: #000000;
-    margin-bottom: 12px;
-}
-
-h1#email {
-    text-decoration: underline;
-    margin: 0;
-}
 
 .service img {
     margin-bottom: 15px;
@@ -266,6 +249,31 @@ h1#email {
     background-color: #ffffff;
 }
 */
+
+.contacts {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 150px 125px 150px 125px;
+    background-color: #ffffff;
+}
+
+.contacts img {
+    width: 13px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.contacts_tel {
+    text-decoration: none;
+    margin: 0;
+    color: #121212;
+}
+
+.contacts_mail {
+    margin: 0;
+    color: #121212;
+    opacity: 0.5;
+}
 
 .footer {
     margin: 0 auto;
