@@ -38,12 +38,10 @@ p {
 }
 
 .tag {
+    margin-bottom: 30px;
     font-size: 18px;
     line-height: 24px;
     text-transform: uppercase;
-/*
-    margin-bottom: 30px;
-*/
     letter-spacing: -0.03em;
 }
 
@@ -87,8 +85,12 @@ img {
 .menu__nav a {
     display: inline-block;
     margin-left: 60px;
-    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
     color: #121212;
+    text-decoration: none;
+    letter-spacing: -0.03em;
 }
 
 .menu__nav a:hover {
@@ -264,15 +266,23 @@ img {
 }
 
 .contacts_tel {
-    text-decoration: none;
     margin: 0;
     color: #121212;
+    text-decoration: none;
 }
 
 .contacts_mail {
     margin: 0;
     color: #121212;
     opacity: 0.5;
+    text-decoration: none;
+}
+
+.contacts_mail h1 {
+    margin-bottom: 10px;
+    color: #121212;
+    opacity: 0.5;
+    box-shadow: inset 0 -0.5px #121212;
 }
 
 .footer {
