@@ -217,7 +217,7 @@ img {
         rgba(0,0,0,0) 0.52%,
         rgba(0,0,0,0.4) 82.81%
         ),
-        url(/resources/Project.jpg);
+        url(resources/Project.jpg);
     background-size: cover;
 }
 
@@ -266,7 +266,7 @@ img {
     margin-left: -4px;
     width: 24px;
     height: 24px;
-    background-image: url(/resources/Vector.png);
+    background-image: url(resources/Vector.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
