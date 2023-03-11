@@ -163,26 +163,6 @@ img {
     background-color: transparent;
 }
 
-.section_image {
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-.project_img {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-}
-
-.project_txt {
-    position: absolute;
-    max-width: 443px;
-    bottom: 60px;
-    left: 125px;
-    color: #ffffff;
-    background-color: transparent;
-}
-
 .project h3 {
     font-size: 30px;
     line-height: 41px;
@@ -226,6 +206,51 @@ img {
     line-height: 67px;
     cursor: pointer;
 }
+
+.section_full_image {
+    position: relative;
+    width: 100%;
+    height: 717px;
+    background: 
+        linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0.52%,
+        rgba(0,0,0,0.4) 82.81%
+        ),
+        url("/resources/Project.jpg");
+    background-size: cover;
+}
+
+.section_full_image_txt {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    max-width: 443px;
+    color: #ffffff;
+    background-color: transparent;
+} 
+
+/* 
+.section_image {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.project_img {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.project_txt {
+    position: absolute;
+    max-width: 443px;
+    bottom: 60px;
+    left: 125px;
+    color: #ffffff;
+    background-color: transparent;
+} 
+*/
 
 .contacts {
     margin: 0 auto;
