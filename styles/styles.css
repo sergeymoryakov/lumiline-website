@@ -288,7 +288,6 @@ img {
     margin: 0 auto;
     max-width: 1400px;
     padding: 150px 125px 150px 125px;
-    background-color: #ffffff;
 }
 
 .tag-phone-before:before {
@@ -312,20 +311,14 @@ img {
     letter-spacing: -0.03em;
 }
 
-/* 
-.contacts img {
-    width: 13px;
-    color: #000000;
-    margin-bottom: 12px;
-}
-} */
-
 .contacts_tel {
+    display: inline-block;
     margin-bottom: 30px;
     font-size: 60px;
     line-height: 60px;
     color: #121212;
     text-decoration: none;
+    border: solid 1px red;
 }
 
 .contacts_tel:hover {
@@ -334,23 +327,27 @@ img {
 
 .contacts_mail {
     display: inline-block;
-    width: auto;
-}
-
-.contacts_mail p {
     padding-bottom: 10px;
     font-size: 60px;
     line-height: 60px;
     color: #121212;
     text-decoration: none;
     opacity: 0.5;
-    border-bottom: solid 3px #121212;
+    border: solid 3px #121212;
 }
 
-.contacts_mail p:hover {
+.contacts_mail:hover {
     opacity: 1;
     border-bottom: solid 3px #121212;
 }
+
+/* 
+.contacts img {
+    width: 13px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+} */
 
 .footer {
     margin: 0 auto;
