@@ -1,0 +1,67 @@
+/* Footer Section Styles */
+
+.footer {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 26px;
+    background-color: #121212;
+    color: #ffffff;
+}    
+
+.footer-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 281px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    opacity: 0.5;
+}
+
+.footer-copyright {
+    margin-top: 41px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright p {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+
+/*** TABLET Screen only ***/
+@media (min-width: 576px) {
+    
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    
+    .footer-nav {
+        max-width: 450px;
+    }
+    
+    .footer-copyright {
+        margin-top: 87px;
+    }
+
+    .footer-copyright p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+}
+/*** End TABLET Screen ***/
+
+
+/*** WIDE screen only ***/
+@media (min-width: 1182px) {
+
+}
+/*** End WIDE Screen ***/

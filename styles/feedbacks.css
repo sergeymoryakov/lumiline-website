@@ -1,0 +1,101 @@
+/*  Feedbacks Section Styles */
+
+.feedbacks {
+    margin-top: 80px;
+}    
+
+.feedbacks-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback {
+    margin-bottom: 78px;
+    width: 100%;
+}
+
+.feedback h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.feedback p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/*** TABLET Screen only ***/
+@media (min-width: 576px) {
+    .feedbacks {
+        margin: 120px 0 120px 0;
+    }    
+    
+    .feedbacks-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 8px;
+    }
+    
+    .feedback {
+        margin-bottom: 75px;
+        width: calc(50% - 4px);
+    }
+    
+    .feedback:last-child:nth-child(odd) {
+        /* NOTE: for PP only */
+        margin-bottom: 5px;
+        width: 75%;
+    }
+
+    .feedback h3 {
+        margin-bottom: 25px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+    
+    .feedback p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+/*** End TABLET Screen ***/
+
+
+/*** WIDE screen only ***/
+@media (min-width: 1182px) {
+
+    .feedbacks {
+        margin: 150px 0 150px 0;
+    }    
+    
+    .feedbacks-wrapper {
+        /* NOTE: for PP only */
+        margin-bottom: 75px;
+
+        column-gap: 50px;
+    }
+    
+    .feedback {
+        margin-bottom: 80px;
+        width: calc(50% - 25px);
+    }
+    
+    .feedback:last-child:nth-child(odd) {
+        /* NOTE: for PP only */
+        margin-bottom: 0px;
+        width: 75%;
+    }
+
+    .feedback h3 {
+        margin-bottom: 14px;
+        font-size: 45px;
+        line-height: 61px;
+    }
+    
+    .feedback p {
+        font-size: 22px;
+        line-height: 30px;
+    }    
+}
+/*** End WIDE Screen ***/
