@@ -3,7 +3,7 @@
 .contacts {
     padding: 80px 0 73px 0;
 }
-    
+
 .contacts-wrapper {
     display: flex;
     gap: 30px;
@@ -57,21 +57,19 @@
 .contact-phone:before {
     top: 0px;
     left: -3px;
-    background-image: url('../resources/Vector-phone.png');
+    background-image: url("../resources/Vector-phone.png");
 }
 
 .contact-mail:before {
     top: -10px;
-    background-image: url('../resources/Vector-mail.png');
+    background-image: url("../resources/Vector-mail.png");
 }
-
 
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
-    
     .contacts {
         padding: 120px 0 120px 0;
-    } 
+    }
 
     .contacts-wrapper {
         gap: 16px;
@@ -86,17 +84,17 @@
     .contact-phone a,
     .contact-mail a {
         padding: 0;
-        font-size: 45px;
-        line-height: 60px;
-    } 
+        font-size: 42px;
+        line-height: 48px;
+    }
 
     .contact-phone a {
         margin-top: 10px;
-    } 
+    }
 
     .contact-mail a {
         margin-bottom: 10px;
-    } 
+    }
 
     .contact-mail a {
         opacity: 0.5;
@@ -107,14 +105,14 @@
         opacity: 1;
         border-bottom: solid 3px #121212;
     }
-    
+
     .contact-phone:before,
     .contact-mail:before {
         top: -4px;
         width: 24px;
         height: 24px;
     }
-    
+
     .contact-phone:before {
         left: -5px;
     }
@@ -122,18 +120,15 @@
     .contact-mail:before {
         left: -3px;
     }
-
 }
 /*** End TABLET Screen ***/
 
-
 /*** WIDE screen only ***/
 @media (min-width: 1182px) {
-
     .contacts {
         padding: 150px 0 147px 0;
     }
-        
+
     .contacts-wrapper {
         column-gap: 10px;
     }
@@ -143,15 +138,15 @@
         width: calc(50% - 5px);
         min-width: 557px;
     }
-    
+
     .contact-phone a,
     .contact-mail a {
         margin: 0;
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 56px;
+        line-height: 56px;
     }
 
-    .contact-phone a{
+    .contact-phone a {
         padding-top: 10px;
     }
 
@@ -163,6 +158,5 @@
     .contact-mail:before {
         top: -2px;
     }
-    
 }
 /*** End WIDE Screen ***/

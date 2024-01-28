@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,27 +19,35 @@
             <div class="container">
                 <div class="menu">
                     <div class="menu-logo">
-                        <a class="logo" href="index.html"> LumiLine </a>
+                        <a href="index.html">
+                            <a class="logo" href="index.html">LumiLine</a>
+                        </a>
                     </div>
                     <nav>
                         <ul class="menu-nav">
                             <li>
-                                <a href="index-su.html">SUOMI</a>
+                                <a href="#id-about">MEISTÄ</a>
+                                <!-- О НАС translates to MEISTÄ -->
                             </li>
                             <li>
-                                <a href="#id-about">ABOUT</a>
+                                <a href="#id-projects">PROJEKTIT</a>
+                                <!-- ПРОЕКТЫ translates to PROJEKTIT -->
                             </li>
                             <li>
-                                <a href="#id-projects">PROJECTS</a>
+                                <a href="#id-services">PALVELUT</a>
+                                <!-- УСЛУГИ translates to PALVELUT -->
                             </li>
                             <li>
-                                <a href="#id-services">SERVICES</a>
+                                <a href="#id-contacts">YHTEYSTIEDOT</a>
+                                <!-- КОНТАКТЫ translates to YHTEYSTIEDOT -->
                             </li>
-                            <li>
-                                <a href="#id-contacts">CONTACTS</a>
+                            <li class="lang-switch">
+                                <p>FI /</p>
+                                <a href="index-en.html">EN</a>
                             </li>
                         </ul>
                     </nav>
+
                     <button class="js-btn-menu-burger btn-menu-burger">
                         <!-- <img src="resources/icons8-drag-list-down-24.png" alt="Drop-down button"> -->
                     </button>
@@ -48,30 +56,27 @@
                 <!-- NEW MENU BURGER MODULE -->
                 <div class="js-menu-burger menu-burger">
                     <div class="menu-burger-content">
-                        <!-- <button class="js-btn-burger-close btn-burger-close">
-                    <img src="resources/Vector-x.png" alt="Close">
-                </button> -->
                         <div class="menu-burger-logo logo">LumiLine</div>
                         <nav>
                             <ul class="menu-burger-nav">
                                 <li>
-                                    <a href="#id-about">ABOUT</a>
+                                    <a href="#id-about">MEISTÄ</a>
                                 </li>
                                 <li>
-                                    <a href="#id-projects">PROJECTS</a>
+                                    <a href="#id-projects">PROJEKTIT</a>
                                 </li>
                                 <li>
-                                    <a href="#id-services">SERVICES</a>
+                                    <a href="#id-services">PALVELUT</a>
                                 </li>
                                 <li>
-                                    <a href="#id-contacts">CONTACTS</a>
+                                    <a href="#id-contacts">YHTEYSTIEDOT</a>
                                 </li>
                                 <li>
-                                    <a href="index-su.html">SUOMI</a>
+                                    <a href="index-en.html">ENGLISH</a>
                                 </li>
                             </ul>
                         </nav>
-                        <p class="burger-contacts">Contact us</p>
+                        <p class="burger-contacts">Yhteydenottoon</p>
                         <ul class="js-menu-burger-content">
                             <li class="burger-contact">
                                 <a href="tel:+358500000000"
@@ -79,7 +84,9 @@
                                 >
                             </li>
                             <li class="burger-contact">
-                                <a href="https://t.me/smoryakov">@smoryakov</a>
+                                <a href="https://t.me/LumiLineTelegram"
+                                    >@LumiLineTelegram</a
+                                >
                             </li>
                         </ul>
                     </div>
@@ -89,7 +96,9 @@
         <main>
             <section class="intro">
                 <div class="container">
-                    <h1>Modern and stylish interiors for a comfortable life</h1>
+                    <h1>
+                        Nykyaikaiset ja tyylikkäät sisustukset mukavaan elämään
+                    </h1>
                     <div class="intro-img">
                         <picture>
                             <source
@@ -102,14 +111,14 @@
                             />
                             <img
                                 src="resources/Intro-s.jpg"
-                                alt="Interior Intro Image"
+                                alt="Sisätilojen esittelykuva"
                             />
                         </picture>
                         <div class="intro-txt">
                             <p>
-                                We are a team of qualified designers and
-                                architects experinced in the development and
-                                implementation of design projects
+                                Olemme pätevien suunnittelijoiden ja
+                                arkkitehtien tiimi, joka kehittää ja toteuttaa
+                                design-projekteja
                             </p>
                         </div>
                     </div>
@@ -118,29 +127,27 @@
 
             <section id="id-about" class="about">
                 <div class="container">
-                    <p class="section-title">ABOUT</p>
+                    <p class="section-title">MEISTÄ</p>
                     <div>
                         <h2 class="about-txt">
-                            The studio was founded in 2011. We fully devote
-                            ourselves to the design and implementation of
-                            interiors. People turn to us for comfort, individual
-                            solutions and practicality. We find constructive
-                            solutions for each interior, down to every detail -
-                            we are focused on the result.
+                            Studio perustettiin vuonna 2011. Olemme täysin
+                            omistautuneet sisätilojen suunnitteluun ja
+                            toteutukseen. Asiakkaat kääntyvät puoleemme
+                            kodikkuuden, yksilöllisten ratkaisujen ja
+                            käytännöllisyyden vuoksi. Löydämme rakentavia
+                            ratkaisuja jokaiseen sisätilaan, yksityiskohtia
+                            myöten - keskitymme tulokseen.
                         </h2>
                     </div>
                     <a class="btn-allservices" href="#id-services"
-                        >All services</a
+                        >Katso palvelut</a
                     >
-                    <!--             
-            <button id="btn_services">Посмотреть услуги</button>
--->
                 </div>
             </section>
 
             <section id="id-projects" class="projects">
                 <div class="container">
-                    <p class="section-title">PROJECTS</p>
+                    <p class="section-title">PROJEKTIT</p>
                     <div class="projects-wrapper">
                         <div class="project">
                             <div class="project-img">
@@ -160,7 +167,7 @@
                                 </picture>
                             </div>
                             <h3>OIKEA RANTA — 112 m² — 2023</h3>
-                            <a href="">More information →</a>
+                            <a href="">Lue lisää →</a>
                         </div>
 
                         <div class="project">
@@ -181,7 +188,7 @@
                                 </picture>
                             </div>
                             <h3>NORJAN PUISTO — 75 m² — 2023</h3>
-                            <a href="">More information →</a>
+                            <a href="">Lue lisää →</a>
                         </div>
 
                         <div class="project">
@@ -202,11 +209,11 @@
                                 </picture>
                             </div>
                             <h3>MÄNTYJÄRVI — 94 m² — 2022</h3>
-                            <a href="">More information →</a>
+                            <a href="">Lue lisää →</a>
                         </div>
                     </div>
                     <a class="btn-allprojects" href="#id-gallery"
-                        >All projects</a
+                        >Katso kaikki projektit</a
                     >
                 </div>
             </section>
@@ -215,7 +222,7 @@
             <section id="id-services" class="services">
                 <div class="container">
                     <!-- NOTE: class "services-block" replaced "services_black_set"  -->
-                    <p class="section-title dark">SERVICES</p>
+                    <p class="section-title dark">PALVELUT</p>
                     <div class="services-wrapper">
                         <div class="service">
                             <picture>
@@ -233,8 +240,8 @@
                                 />
                             </picture>
 
-                            <button class="btn-service">from €40/m²</button>
-                            <h3>Layout solution</h3>
+                            <button class="btn-service">alkaen €40/m²</button>
+                            <h3>Tilaratkaisu</h3>
                         </div>
 
                         <div class="service">
@@ -253,8 +260,8 @@
                                 />
                             </picture>
 
-                            <button class="btn-service">from €60/m²</button>
-                            <h3>Design project</h3>
+                            <button class="btn-service">alkaen €60/m²</button>
+                            <h3>Suunnitteluprojekti</h3>
                         </div>
 
                         <div class="service">
@@ -272,8 +279,10 @@
                                     alt="Service Image Placeholder"
                                 />
                             </picture>
-                            <button class="btn-service">from €500/month</button>
-                            <h3>Architectural supervision</h3>
+                            <button class="btn-service">
+                                alkaen €500/month
+                            </button>
+                            <h3>Tekijänoikeudellinen valvonta</h3>
                         </div>
 
                         <div class="service">
@@ -291,12 +300,14 @@
                                     alt="Service Image Placeholder"
                                 />
                             </picture>
-                            <button class="btn-service">5% of the price</button>
-                            <h3>Kitting</h3>
+                            <button class="btn-service">
+                                5% kustannuksista
+                            </button>
+                            <h3>Varustelu</h3>
                         </div>
                     </div>
                     <button class="js-btn-order btn-order">
-                        Order services
+                        Tilaa palvelu
                     </button>
                 </div>
 
@@ -304,98 +315,101 @@
                 <div class="js-popup popup-order">
                     <div class="js-popup-order-content popup-order-content">
                         <button class="js-btn-order-close btn-order-close">
-                            <img src="resources/Vector-x.png" alt="Close" />
+                            <img src="resources/Vector-x.png" alt="Sulje" />
                         </button>
-                        <p class="order-title">Order services</p>
+                        <p class="order-title">Tilaa palvelu</p>
                         <p class="order-txt">
-                            Fill out the form, we will reach out to you within
-                            24h
+                            Täytä lomake, otamme sinuun yhteyttä vuorokauden
+                            kuluessa
                         </p>
                         <form>
                             <input
                                 class="input"
                                 type="text"
                                 name="name"
-                                placeholder="Full name"
+                                placeholder="Nimi"
                             />
                             <input
                                 class="input"
                                 type="email"
                                 name="email"
-                                placeholder="Email"
+                                placeholder="Sähköposti"
                             />
                             <input
                                 class="input"
                                 type="tel"
                                 name="phone"
-                                placeholder="Phone number"
+                                placeholder="Puhelinnumero"
                             />
-                            <button class="btn-order-submit">Submit</button>
+                            <button class="btn-order-submit">Lähetä</button>
                         </form>
                     </div>
                 </div>
+
                 <!-- <script src="popup-order.js"></script> -->
             </section>
 
             <section class="feedbacks">
                 <div class="container">
-                    <p class="section-title">REVIEWS</p>
+                    <p class="section-title">ARVOSTELUT</p>
                     <div class="feedbacks-wrapper">
                         <div class="feedback">
-                            <h3>Ksenia, 65 m² project</h3>
+                            <h3>Senja, 65 m² projekti</h3>
                             <p>
-                                I want to sincerely thank you for the work done
-                                at a high level! My husband and I enjoyed
-                                working with you! Thank you for your ability to
-                                correctly hear the wishes of your customers and
-                                perform work that exceeds all expectations! We
-                                did not even hope that 34 sq.m. someone will be
-                                able to competently place everything we want and
-                                even more!
+                                Haluaisin vilpittömästi kiittää teitä
+                                korkeatasoisesti suoritetusta työstä! Minun ja
+                                mieheni oli erittäin miellyttävää työskennellä
+                                kanssanne! Kiitos taidostanne kuunnella
+                                asiakkaidenne toiveita oikein ja tehdä työtä,
+                                joka ylittää kaikki odotukset! Emme edes
+                                toivoneet, että joku voisi sijoittaa kaiken mitä
+                                haluamme ja enemmän vain 34 m²:n tilaan!
                                 <br />
                                 <br />
-                                You did it just fine! We just have to bring the
-                                beauty that you have created for us to life and
-                                share the result with you!
+                                Te onnistuitte siinä erinomaisesti! Meidän
+                                tehtäväksemme jäi vain toteuttaa kauneus, jonka
+                                loitte meille, elämään ja jakaa kanssanne
+                                tulokset!
                             </p>
                         </div>
                         <div class="feedback">
-                            <h3>Regina, 89 m² project</h3>
+                            <h3>Reetta, 89 m² projekti</h3>
                             <p>
-                                Thanks a lot for such a great project!
-                                Everything is stylish, cool, thought out! It was
-                                a pleasure to work with you! Thank you for
-                                enduring our “I want this, I want that” in
-                                finding the perfect renovation for us. It's
-                                great that we found such a thorough, responsible
-                                and attentive to details designer!
+                                Suurkiitos niin mahtavasta projektista! Kaikki
+                                on tyylikästä, hienoa ja harkittua! Oli todella
+                                mukavaa työskennellä kanssanne! Kiitos, että
+                                kestitte meidän "haluan tätä, haluan tuota"
+                                etsiessämme täydellistä remonttia meille. On
+                                hienoa, että löysimme niin perusteellisen,
+                                vastuullisen ja yksityiskohtiin keskittyvän
+                                suunnittelijan!
                                 <br />
                                 <br />
-                                I would like to implement the project as soon as
-                                possible and enjoy a modern, functional and
-                                beautiful apartment! We will recommend you to
-                                all our friends and acquaintances!
+                                Haluamme pian toteuttaa projektin ja nauttia
+                                modernista, toimivasta ja kauniista asunnosta!
+                                Suosittelemme teitä kaikille ystävillemme ja
+                                tuttavillemme!
                             </p>
                         </div>
                         <div class="feedback">
-                            <h3>Yana, 120 m² project</h3>
+                            <h3>Janna, 120 m² projekti</h3>
                             <p>
-                                I would like to say a big thank you for the work
-                                you have done! Marina's task was to develop a
-                                design project in the shortest possible time,
-                                and, of course, I did not want to lose the
-                                quality of the work. But the excitement was in
-                                vain: all issues were resolved promptly, several
-                                solutions were always offered, and comments were
-                                provided on which solution would be more
-                                appropriate.
+                                Haluaisin sanoa suuren kiitoksen suoritetusta
+                                työstä! Marinan tehtävänä oli kehittää
+                                design-projekti lyhyessä ajassa, ja tietenkin en
+                                halunnut menettää työn laatua tässä prosessissa.
+                                Mutta huoleni olivat turhia: kaikkiin
+                                kysymyksiin vastattiin nopeasti, aina tarjottiin
+                                useita ratkaisuvaihtoehtoja, sekä annettiin
+                                kommentteja siitä, mikä ratkaisutapa olisi
+                                sopivampi.
                                 <br />
                                 <br />
-                                As a result, the project was delivered on time,
-                                and I just can't wait to start implementing it!
-                                The project turned out very stylish and modern!
-                                I will recommend you to those who still have
-                                this difficult task - repair!
+                                Lopulta projekti valmistui sovittuun aikaan, ja
+                                en malta odottaa sen toteuttamista! Projekti on
+                                erittäin tyylikäs ja moderni! Suosittelen teitä
+                                niille, joilla on vielä edessään tämä vaikea
+                                tehtävä - remontti!
                             </p>
                         </div>
                     </div>
@@ -407,7 +421,7 @@
                     <div class="gallery-title-wrapper">
                         <div class="container">
                             <p class="gallery-title section-title dark">
-                                project gallery
+                                projektigalleria
                             </p>
                         </div>
                     </div>
@@ -420,8 +434,8 @@
                             <div class="gallery-slide-title">
                                 <div class="container">
                                     <h3>
-                                        The one-bedroom apartment in
-                                        METSÄLUIKETTA
+                                        Kahden huoneen asunnon projekti
+                                        asuntoalueella METSÄMAISEMA
                                     </h3>
                                 </div>
                             </div>
@@ -433,7 +447,10 @@
                             />
                             <div class="gallery-slide-title">
                                 <div class="container">
-                                    <h3>The living room project in MAJAKKA</h3>
+                                    <h3>
+                                        Olohuoneen projekti asuntoalueella
+                                        MAJAKKA
+                                    </h3>
                                 </div>
                             </div>
                         </div>
@@ -445,8 +462,8 @@
                             <div class="gallery-slide-title">
                                 <div class="container">
                                     <h3>
-                                        Visualization of the studio in a private
-                                        house
+                                        Keittiö-olohuoneen visualisointi
+                                        omakotitalossa
                                     </h3>
                                 </div>
                             </div>
@@ -459,7 +476,8 @@
                             <div class="gallery-slide-title">
                                 <div class="container">
                                     <h3>
-                                        The kitchen project in POHJOIS TUULI
+                                        Keittiöprojekti skandinaavisessa
+                                        tyylissä asuntoalueella POHJOINEN TUULI
                                     </h3>
                                 </div>
                             </div>
@@ -489,14 +507,14 @@
 
             <section id="id-contacts" class="contacts">
                 <div class="container">
-                    <p class="section-title">CONTACTS</p>
+                    <p class="section-title">YHTEYSTIEDOT</p>
                     <div class="contacts-wrapper">
                         <div class="contact contact-phone">
                             <a href="tel:+358500000000">+358 (50) 000-00-00</a>
                         </div>
                         <div class="contact contact-mail">
-                            <a target="_blank" href="https://t.me/smoryakov"
-                                >@smoryakov</a
+                            <a href="https://t.me/LumiLineTelegram"
+                                >@LumiLineTelegram</a
                             >
                         </div>
                     </div>
@@ -507,22 +525,22 @@
             <div class="footer">
                 <div class="footer-nav">
                     <a href="#id-about" class="section-title dark zero-margin"
-                        >ABOUT</a
+                        >MEISTÄ</a
                     >
                     <a
                         href="#id-projects"
                         class="section-title dark zero-margin"
-                        >PROJECTS</a
+                        >PROJEKTIT</a
                     >
                     <a
                         href="#id-services"
                         class="section-title dark zero-margin"
-                        >SERVICES</a
+                        >PALVELUT</a
                     >
                     <a
                         href="#id-contacts"
                         class="section-title dark zero-margin"
-                        >CONTACTS</a
+                        >YHTEYSTIEDOT</a
                     >
                 </div>
                 <div class="footer-copyright">
