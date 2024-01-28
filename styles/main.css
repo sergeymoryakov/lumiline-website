@@ -11,6 +11,20 @@
 @import "./contacts.css";
 @import "./footer.css";
 
+/* For Montserrat variable font */
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+}
+
+/* For Montserrat variable font italic */
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Italic-VariableFont_wght.ttf")
+        format("truetype");
+    font-style: italic;
+}
 
 html {
     scroll-behavior: smooth;
@@ -25,9 +39,19 @@ p,
 a,
 input,
 button {
-    font-family: 'Manrope', sans-serif;
+    font-family: "Montserrat";
+    /* font-family: "Manrope", sans-serif; */
     font-weight: 400;
     letter-spacing: -0.03em;
+}
+
+.logo {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    letter-spacing: -0.02em;
 }
 
 .container {
@@ -53,30 +77,27 @@ button {
 
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
-    
     .container {
         padding: 0 16px;
         /* NOTE: FOR PP TBS only: 
         background-color: lightgreen;
         */
     }
-    
+
     .section-title {
         margin-bottom: 30px;
         font-size: 18px;
         line-height: 25px;
     }
-    
+
     .zero-margin {
         margin: 0;
     }
 }
 /*** End TABLET Screen ***/
 
-
 /*** WIDE screen only ***/
 @media (min-width: 1182px) {
-    
     .container {
         padding: 0;
         max-width: 1150px;
@@ -84,13 +105,13 @@ button {
         background-color: lightblue;
         */
     }
-    
+
     .section-title {
         margin-bottom: 30px;
         font-size: 18px;
         line-height: 24px;
     }
-    
+
     .zero-margin {
         margin: 0;
     }
