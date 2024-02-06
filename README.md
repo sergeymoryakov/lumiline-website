@@ -1,2 +1,7 @@
-# metrica
-Metrica Studio web-page - a training project to pracice HTML, CSS and JavaScript usage.
+# LumiLine
+
+LumiLine Studio web page.
+
+## Technical Stack
+
+HTML, CSS and JavaScript.
